@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University responsive website design by easyTutorials</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/all.css">
+</head>
+
+<body>
+    <!---------- header ---------->
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="images/logo.png" ></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="course.html">COURSE</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>Our Certificate & online Programs for 2021</h1>
+    </section>
+
+   <!-- blog page content -->
+   <section class="blog-content">
+       <div class="row">
+           <div class="blog-left">
+            <img src="images/certificate.jpg">
+            <h2>Our Certificate & online Programs for 2021</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum dignissimos modi harum enim dolore ipsam aliquid quasi, explicabo ad reprehenderit saepe dicta, impedit laudantium repudiandae blanditiis suscipit id, eum nam dolorum! Id tenetur magni quidem voluptatem labore mollitia, dicta eos enim ratione laudantium. Consequatur omnis, qui ad culpa vel cumque!</p> 
+            <br>
+            <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quo blanditiis tempora ad eius a eum impedit possimus temporibus eveniet libero. Quibusdam quos numquam blanditiis debitis aperiam id ex ipsa, quae doloribus esse pariatur itaque perspiciatis natus quisquam ratione sequi maiores corporis, odio minima ullam voluptates soluta sed, officiis totam? Dolore quaerat suscipit in? Possimus, obcaecati asperiores esse debitis exercitationem itaque ea quisquam aspernatur tempore nobis. Unde non quo dignissimos eius tempora nostrum dolorem nobis alias explicabo. Rem, ipsam hic aperiam a perspiciatis consequuntur ducimus fuga magni quo possimus tenetur iste necessitatibus assumenda voluptas vel aliquam velit ab numquam eum officiis?
+            </p>
+            <br>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut, tenetur facilis! Sequi repudiandae cumque quos praesentium voluptas quidem eaque fugit animi soluta illo dolorum aliquid modi, eius placeat autem beatae. Tenetur, ipsam culpa maxime repellat doloribus corrupti sit illo maiores dignissimos animi, ex iste numquam omnis exercitationem provident mollitia, quaerat quasi velit voluptatum. Fuga optio beatae vel dolorum, provident inventore!
+            </p>
+            <br>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed, ut doloribus voluptates, aut blanditiis, temporibus illum minus dolore impedit magnam cupiditate libero repellat fugiat aperiam repudiandae accusamus maxime iste. Aspernatur.</p>
+
+
+            <div class="comment-box">
+                <h3>Leave a comment</h3>
+
+
+                <form action="" class="comment-form">
+                    <input type="text" placeholder="Enter Name">
+                    <input type="Email" placeholder="Enter Email">
+                    <textarea rows="5">Your comment</textarea>
+                    <button type="submit" class="hero-btn red-btn">POST COMMENT</button>
+                </form>
+            </div>
+
+
+           </div>
+           
+           <div class="blog-right">
+               <h3>post categories</h3>
+               <div>
+                   <span>Bussiness Analytics</span>
+                   <span>21</span>
+               </div>
+               <div>
+                <span>Data Science</span>
+                <span>28</span>
+                </div>
+                <div>
+                    <span>Machine Learning</span>
+                    <span>15</span>
+                </div>
+                <div>
+                    <span>Computer Science</span>
+                    <span>34</span>
+                </div>
+                <div>
+                    <span>AutoCad</span>
+                    <span>42</span>
+                </div>
+                <div>
+                    <span>Journalism</span>
+                    <span>22</span>
+                </div>
+                <div>
+                    <span>Commerce</span>
+                    <span>30</span>
+                </div>
+            </div>
+       </div>
+   </section>
+          
+
+            
+    <!---------- footer -------------->
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem quam consequatur nobis repudiandae dolorem. Cupiditate sint quae illo laborum fugit, commodi <br> nam sit neque iure quibusdam asperiores labore fugiat? Consectetur!</p>
+        <div class="icons">
+            <i class="fab fa-facebook"></i>
+            <i class="fab fa-twitter"></i>
+            <i class="fab fa-instagram"></i>
+            <i class="fab fa-linkedin"></i>
+        </div>
+        <p>Made with <i class="far fa-heart"></i> by me</p>
+    </section>
+
+
+
+    <!-- javascript for toggle menu -->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+    </script>
+
+</body>
+</html>
